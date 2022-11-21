@@ -1,0 +1,9 @@
+D:/Project/build-Bhitti-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/Bhitti.dir
+D:/Project/build-Bhitti-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Project/build-Bhitti-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Project/build-Bhitti-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/Project/build-Bhitti-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/Project/build-Bhitti-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/Project/build-Bhitti-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/Project/build-Bhitti-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/Bhitti_autogen_timestamp_deps.dir
+D:/Project/build-Bhitti-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/Bhitti_autogen.dir
