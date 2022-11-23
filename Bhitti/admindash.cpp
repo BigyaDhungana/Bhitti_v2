@@ -8,9 +8,6 @@ AdminDash::AdminDash(QWidget *parent) :
     ui(new Ui::AdminDash)
 {
     ServerDriver s = ServerDriver();
-    std::string lauda = s.checkServerHealth();
-    QString str = QString::fromUtf8(lauda.c_str());
-    qDebug() << str;
     ui->setupUi(this);
 }
 

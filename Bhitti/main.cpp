@@ -11,8 +11,8 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-   // Login w;
-    //w.show();
+    Login w;
+    w.show();
     /*EmployeeDash emp1;
     emp1.showMaximized();
     NewOrder o1;
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
     NewProduct np1;
     np1.showMaximized();
     */
-    AdminDash aa;
-    aa.showMaximized();
+    //AdminDash aa;
+    //aa.showMaximized();
     return a.exec();
 }
