@@ -14,6 +14,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
+include(FetchContent)
+FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git
+                         GIT_TAG 871ed52d350214a034f6ef8a3b8f51c5ce1bd400) # The commit hash for 1.9.0. Replace with the latest from: https://github.com/libcpr/cpr/releases
+FetchContent_MakeAvailable(cpr)
+
 set(PROJECT_SOURCES
         main.cpp
         login.cpp
@@ -43,6 +48,8 @@ set(PROJECT_SOURCES
         newproduct.cpp
         newproduct.h
         newproduct.ui
+        serverdriver.cpp
+        serverdriver.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -69,6 +76,7 @@ else()
 endif()
 
 target_link_libraries(Bhitti PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(Bhitti PRIVATE cpr::cpr)
 
 set_target_properties(Bhitti PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
