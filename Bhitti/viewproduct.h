@@ -2,6 +2,9 @@
 #define VIEWPRODUCT_H
 
 #include <QDialog>
+#include<QTableView>
+#include<QItemDelegate>
+#include<QStandardItemModel>
 
 namespace Ui {
 class ViewProduct;
@@ -20,6 +23,9 @@ private slots:
 
 private:
     Ui::ViewProduct *ui;
+    QStandardItemModel *model;
+    QStringList horizontalHeader;
+    QStringList verticalHeader;
 };
 
 #endif // VIEWPRODUCT_H

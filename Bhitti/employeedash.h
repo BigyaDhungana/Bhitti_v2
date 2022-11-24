@@ -2,6 +2,9 @@
 #define EMPLOYEEDASH_H
 
 #include <QDialog>
+#include<QTableView>
+#include<QItemDelegate>
+#include<QStandardItemModel>
 
 namespace Ui {
 class EmployeeDash;
@@ -28,8 +31,13 @@ private slots:
 
     void on_pushButton_5_clicked();
 
+    void on_pushButton_7_clicked();
+
 private:
     Ui::EmployeeDash *ui;
+    QStandardItemModel *model;
+       QStringList horizontalHeader;
+       QStringList verticalHeader;
 };
 
 #endif // EMPLOYEEDASH_H

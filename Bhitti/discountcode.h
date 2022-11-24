@@ -2,6 +2,9 @@
 #define DISCOUNTCODE_H
 
 #include <QDialog>
+#include<QTableView>
+#include<QItemDelegate>
+#include<QStandardItemModel>
 
 namespace Ui {
 class DiscountCode;
@@ -18,8 +21,13 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_pushButton_2_clicked();
+
 private:
     Ui::DiscountCode *ui;
+    QStandardItemModel *model;
+    QStringList horizontalHeader;
+    QStringList verticalHeader;
 };
 
 #endif // DISCOUNTCODE_H

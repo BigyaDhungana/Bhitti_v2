@@ -2,6 +2,9 @@
 #define TRACKORDER_H
 
 #include <QDialog>
+#include<QTableView>
+#include<QItemDelegate>
+#include<QStandardItemModel>
 
 namespace Ui {
 class TrackOrder;
@@ -20,6 +23,9 @@ private slots:
 
 private:
     Ui::TrackOrder *ui;
+    QStandardItemModel *model;
+       QStringList horizontalHeader;
+       QStringList verticalHeader;
 };
 
 #endif // TRACKORDER_H

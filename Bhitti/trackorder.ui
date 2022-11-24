@@ -63,8 +63,8 @@ font: 19pt &quot;Segoe UI&quot;;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>235</x>
-     <y>123</y>
+     <x>260</x>
+     <y>90</y>
      <width>80</width>
      <height>18</height>
     </rect>
@@ -85,8 +85,8 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>101</x>
-     <y>121</y>
+     <x>110</x>
+     <y>90</y>
      <width>131</width>
      <height>22</height>
     </rect>
@@ -98,8 +98,8 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>26</x>
-     <y>121</y>
+     <x>30</x>
+     <y>90</y>
      <width>71</width>
      <height>20</height>
     </rect>
@@ -118,6 +118,16 @@ font: 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
     <string>Order I.D</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>256</width>
+     <height>171</height>
+    </rect>
    </property>
   </widget>
  </widget>

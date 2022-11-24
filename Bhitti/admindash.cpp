@@ -114,3 +114,13 @@ void AdminDash::on_pushButton_11_clicked()
     dc->show();
 }
 
+
+void AdminDash::on_pushButton_clicked()
+{
+    QString agendaData = ui->textEdit->toPlainText();
+    std::string agendaString = agendaData.toStdString();
+    ServerDriver s = ServerDriver();
+    s.addAgenda(agendaString);
+    ui->textEdit->setText("");
+}
+

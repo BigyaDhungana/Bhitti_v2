@@ -2,6 +2,9 @@
 #define ATTENDANCE_H
 
 #include <QDialog>
+#include<QTableView>
+#include<QItemDelegate>
+#include<QStandardItemModel>
 
 namespace Ui {
 class Attendance;
@@ -20,6 +23,9 @@ private slots:
 
 private:
     Ui::Attendance *ui;
+    QStandardItemModel *model;
+    QStringList horizontalHeader;
+    QStringList verticalHeader;
 };
 
 #endif // ATTENDANCE_H

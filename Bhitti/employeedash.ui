@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>448</width>
-    <height>319</height>
+    <height>337</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -152,7 +152,7 @@ border-radius:20px;</string>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
-       <layout class="QVBoxLayout" name="verticalLayout" stretch="0,99">
+       <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0">
         <property name="topMargin">
          <number>4</number>
         </property>
@@ -171,13 +171,21 @@ font: 300 18pt &quot;Segoe UI&quot;;</string>
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_5">
+         <widget class="QPushButton" name="pushButton_7">
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(200, 0, 0);
-background-color: rgb(255, 147, 149);</string>
+           <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(177, 0, 3);
+font: 900 9pt &quot;Segoe UI Black&quot;;</string>
           </property>
           <property name="text">
-           <string/>
+           <string>Get Data</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableView" name="tableView">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
           </property>
          </widget>
         </item>
