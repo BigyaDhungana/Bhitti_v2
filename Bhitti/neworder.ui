@@ -385,8 +385,10 @@ font: 300 9pt &quot;Segoe UI&quot;;</string>
          <cursorShape>PointingHandCursor</cursorShape>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: rgb(55, 55, 55);
-color: rgb(219, 219, 219);</string>
+         <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(177, 0, 3);
+;
+font: 900 9pt &quot;Segoe UI Black&quot;;</string>
         </property>
         <property name="text">
          <string>Add</string>

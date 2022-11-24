@@ -92,6 +92,9 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
         </item>
         <item>
          <widget class="QTextEdit" name="textEdit">
+          <property name="cursor" stdset="0">
+           <cursorShape>IBeamCursor</cursorShape>
+          </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(255, 255, 255);</string>
           </property>
@@ -112,6 +115,9 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
         </item>
         <item>
          <widget class="QPushButton" name="pushButton">
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
           <property name="styleSheet">
            <string notr="true">background-color: rgb(160,191,243);
 color: rgb(11, 66, 160);
@@ -124,6 +130,9 @@ font: 600 9pt &quot;Segoe UI&quot;;</string>
         </item>
         <item>
          <widget class="QPushButton" name="pushButton_2">
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
           <property name="styleSheet">
            <string notr="true">color: rgb(255, 255, 255);
 background-color: rgb(177, 0, 3);
@@ -154,6 +163,9 @@ border-radius:20px;</string>
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
            <widget class="QPushButton" name="pushButton_3">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
             <property name="styleSheet">
              <string notr="true">background-color: rgb(160,191,243);
 color: rgb(11, 66, 160);
@@ -166,6 +178,9 @@ font: 600 19pt &quot;Segoe UI&quot;;</string>
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_4">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
             <property name="styleSheet">
              <string notr="true">background-color: rgb(160,191,243);
 color: rgb(11, 66, 160);
@@ -178,6 +193,9 @@ font: 600 19pt &quot;Segoe UI&quot;;</string>
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_5">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
             <property name="styleSheet">
              <string notr="true">background-color: rgb(160,191,243);
 color: rgb(11, 66, 160);
@@ -194,6 +212,9 @@ font: 600 19pt &quot;Segoe UI&quot;;</string>
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <item>
            <widget class="QPushButton" name="pushButton_6">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
             <property name="styleSheet">
              <string notr="true">background-color: rgb(160,191,243);
 color: rgb(11, 66, 160);
@@ -206,25 +227,31 @@ font: 600 19pt &quot;Segoe UI&quot;;</string>
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_7">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
             <property name="styleSheet">
              <string notr="true">background-color: rgb(160,191,243);
 color: rgb(11, 66, 160);
 font: 600 19pt &quot;Segoe UI&quot;;</string>
             </property>
             <property name="text">
-             <string>View Order</string>
+             <string>View Product</string>
             </property>
            </widget>
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_8">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
             <property name="styleSheet">
              <string notr="true">background-color: rgb(160,191,243);
 color: rgb(11, 66, 160);
 font: 600 19pt &quot;Segoe UI&quot;;</string>
             </property>
             <property name="text">
-             <string>Delete Order</string>
+             <string>Delete Product</string>
             </property>
            </widget>
           </item>
@@ -239,6 +266,9 @@ font: 600 19pt &quot;Segoe UI&quot;;</string>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
      <item>
       <widget class="QPushButton" name="pushButton_9">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);
 background-color: rgb(177, 0, 3);
@@ -251,6 +281,9 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_10">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);
 background-color: rgb(177, 0, 3);
@@ -263,6 +296,9 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_11">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);
 background-color: rgb(177, 0, 3);
@@ -275,6 +311,9 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
      </item>
      <item>
       <widget class="QPushButton" name="pushButton_12">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(255, 255, 255);
 background-color: rgb(177, 0, 3);

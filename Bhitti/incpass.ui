@@ -13,17 +13,44 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>70</y>
-     <width>171</width>
-     <height>16</height>
+     <x>80</x>
+     <y>10</y>
+     <width>231</width>
+     <height>271</height>
     </rect>
    </property>
    <property name="text">
-    <string>Incorrect Password</string>
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>C:/Users/Asus/Downloads/SadVitti.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>260</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(177, 0, 3);
+
+font: 900 9pt &quot;Segoe UI Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Incorrect password</string>
    </property>
   </widget>
  </widget>
