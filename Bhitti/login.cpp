@@ -60,7 +60,9 @@ void Login::on_pushButton_clicked()
             this->hide();
         }
     }else{
-        //TODO: INVALID USER
+        std::string test =s.addEmployee("GanjiKumar","gangi seller","no idea","gg","a");
+        QString qtest=QString::fromUtf8(test.c_str());
+        qDebug()<<qtest;
     }
 
 
