@@ -6,6 +6,7 @@
 #include "admindash.h"
 #include "employeedash.h"
 #include "serverdriver.h"
+#include "incpass.h"
 //JSON Stuff
 #include<QJsonDocument>
 #include<QJsonParseError>
@@ -60,9 +61,13 @@ void Login::on_pushButton_clicked()
             this->hide();
         }
     }else{
-        std::string test =s.addEmployee("GanjiKumar","gangi seller","no idea","gg","a");
-        QString qtest=QString::fromUtf8(test.c_str());
-        qDebug()<<qtest;
+       // std::string test =s.addOrder("321","kaccha kumar","986627282","timro mutu ma","838");
+       // QString qtest=QString::fromUtf8(test.c_str());
+        //qDebug()<<qtest;
+        incpass *i=new incpass;
+        i->show();
+
+
     }
 
 

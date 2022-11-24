@@ -50,6 +50,9 @@ set(PROJECT_SOURCES
         newproduct.ui
         serverdriver.cpp
         serverdriver.h
+        incpass.cpp
+        incpass.ui
+        incpass.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -11,11 +11,11 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Login w;
-    w.show();
-    /*EmployeeDash emp1;
+    //Login w;
+    //w.show();
+    EmployeeDash emp1;
     emp1.showMaximized();
-    NewOrder o1;
+    /*NewOrder o1;
     o1.showMaximized();
     TrackOrder order;
     order.showMaximized();

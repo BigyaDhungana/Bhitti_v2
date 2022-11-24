@@ -37,6 +37,15 @@ public:
 
     // ORDER METHODS
 
+    std::string addOrder(std::string productID, std::string customer, std::string contact,
+                            std::string address, std::string price){
+        std::string toSend = "{\"product\":\""+productID+"\",\"customer\":\""+customer+"\",\"contact\":\""+contact+"\",\"address\":\""+address+"\",\"price\":\""+price+"\"}";;
+        cpr::Response r = cpr::Post(cpr::Url{serverURL+"/orders"},
+                                    cpr::Body{toSend});
+        std::string toReturn = r.text;
+        return toReturn;
+    }
+
     std::string getOrderDetails(std::string orderID){
         cpr::Response r = cpr::Get(cpr::Url{serverURL+"/orders/"+orderID});
         std::string toReturn = r.text;
