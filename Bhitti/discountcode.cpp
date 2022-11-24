@@ -28,6 +28,7 @@ void DiscountCode::on_pushButton_clicked()
     ServerDriver server=ServerDriver();
     response=server.addDiscountCode(s_code,s_amt,s_val);
 
+    this->hide();
 
 }
 

@@ -15,6 +15,9 @@ public:
     explicit DiscountCode(QWidget *parent = nullptr);
     ~DiscountCode();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::DiscountCode *ui;
 };

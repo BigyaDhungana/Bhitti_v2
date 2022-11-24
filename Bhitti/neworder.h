@@ -15,6 +15,9 @@ public:
     explicit NewOrder(QWidget *parent = nullptr);
     ~NewOrder();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::NewOrder *ui;
 };

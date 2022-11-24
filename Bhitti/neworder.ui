@@ -65,7 +65,7 @@ font: 19pt &quot;Segoe UI&quot;;</string>
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>50</x>
@@ -92,7 +92,7 @@ font: 300 9pt &quot;Segoe UI&quot;;
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit">
+         <widget class="QLineEdit" name="pid">
           <property name="styleSheet">
            <string notr="true">background-color: rgb(160,191,243);</string>
           </property>
@@ -133,9 +133,12 @@ font: 300 9pt &quot;Segoe UI&quot;;
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_2">
+         <widget class="QLineEdit" name="cname">
           <property name="styleSheet">
            <string notr="true">background-color: rgb(160,191,243);</string>
+          </property>
+          <property name="text">
+           <string/>
           </property>
          </widget>
         </item>
@@ -172,12 +175,15 @@ font: 300 9pt &quot;Segoe UI&quot;;</string>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_3">
+         <widget class="QLineEdit" name="contact">
           <property name="styleSheet">
            <string notr="true">background-color: rgb(160,191,243);</string>
           </property>
           <property name="inputMethodHints">
            <set>Qt::ImhFormattedNumbersOnly</set>
+          </property>
+          <property name="text">
+           <string/>
           </property>
          </widget>
         </item>
@@ -217,7 +223,7 @@ font: 300 9pt &quot;Segoe UI&quot;;</string>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_4">
+         <widget class="QLineEdit" name="add">
           <property name="styleSheet">
            <string notr="true">background-color: rgb(160,191,243);</string>
           </property>
@@ -256,7 +262,7 @@ font: 300 9pt &quot;Segoe UI&quot;;</string>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_5">
+         <widget class="QLineEdit" name="price">
           <property name="styleSheet">
            <string notr="true">background-color: rgb(160,191,243);;</string>
           </property>
@@ -439,11 +445,11 @@ font: 300 9pt &quot;Segoe UI&quot;;</string>
   </widget>
  </widget>
  <tabstops>
-  <tabstop>lineEdit</tabstop>
-  <tabstop>lineEdit_2</tabstop>
-  <tabstop>lineEdit_3</tabstop>
-  <tabstop>lineEdit_4</tabstop>
-  <tabstop>lineEdit_5</tabstop>
+  <tabstop>pid</tabstop>
+  <tabstop>cname</tabstop>
+  <tabstop>contact</tabstop>
+  <tabstop>add</tabstop>
+  <tabstop>price</tabstop>
   <tabstop>lineEdit_6</tabstop>
   <tabstop>lineEdit_7</tabstop>
  </tabstops>

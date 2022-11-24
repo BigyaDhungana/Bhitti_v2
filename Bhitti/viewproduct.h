@@ -15,6 +15,9 @@ public:
     explicit ViewProduct(QWidget *parent = nullptr);
     ~ViewProduct();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::ViewProduct *ui;
 };

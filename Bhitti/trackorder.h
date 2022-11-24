@@ -15,6 +15,9 @@ public:
     explicit TrackOrder(QWidget *parent = nullptr);
     ~TrackOrder();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::TrackOrder *ui;
 };

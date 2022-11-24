@@ -1,6 +1,8 @@
-#include "login.h"
-#include "neworder.h"
 #include <QApplication>
+#include "login.h"
+/*
+#include "neworder.h"
+
 #include "employeedash.h"
 #include "trackorder.h"
 #include "viewproduct.h"
@@ -11,12 +13,12 @@
 #include "deleteproduct.h"
 #include "addemployee.h"
 #include "deleteemployee.h"
-
+*/
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    //Login w;
-    //w.show();
+    Login w;
+    w.show();
     //EmployeeDash emp1;
     //emp1.showMaximized();
     //NewOrder o1;
@@ -33,8 +35,8 @@ int main(int argc, char *argv[])
     //NewProduct np1;
     //np1.show();
  /**/
-   AdminDash aa;
-   aa.showMaximized();
+   //AdminDash aa;
+   //aa.showMaximized();
    // DeleteProduct d1;
     //d1.show();
     //AddEmployee ad1;
