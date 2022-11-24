@@ -1,54 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ViewProduct</class>
- <widget class="QDialog" name="ViewProduct">
+ <class>deleteEmployee</class>
+ <widget class="QDialog" name="deleteEmployee">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>407</width>
-    <height>261</height>
+    <width>400</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">;
-background-color: rgb(255, 255, 255);</string>
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>20</y>
-     <width>191</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Segoe UI</family>
-     <pointsize>19</pointsize>
-     <italic>false</italic>
-     <bold>false</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(11, 66, 160);
-font: 19pt &quot;Segoe UI&quot;;</string>
-   </property>
-   <property name="text">
-    <string>View Product</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>10</y>
+     <y>20</y>
      <width>71</width>
-     <height>51</height>
+     <height>61</height>
     </rect>
    </property>
    <property name="text">
@@ -65,8 +39,8 @@ font: 19pt &quot;Segoe UI&quot;;</string>
    <property name="geometry">
     <rect>
      <x>130</x>
-     <y>130</y>
-     <width>141</width>
+     <y>140</y>
+     <width>131</width>
      <height>22</height>
     </rect>
    </property>
@@ -77,10 +51,10 @@ font: 19pt &quot;Segoe UI&quot;;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>130</y>
-     <width>80</width>
-     <height>18</height>
+     <x>300</x>
+     <y>140</y>
+     <width>81</width>
+     <height>21</height>
     </rect>
    </property>
    <property name="cursor">
@@ -93,15 +67,40 @@ background-color: rgb(177, 0, 3);
 font: 900 9pt &quot;Segoe UI Black&quot;;</string>
    </property>
    <property name="text">
-    <string>View</string>
+    <string>Delete</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>19</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(11, 66, 160);
+font: 19pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Delete Employee</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>130</y>
-     <width>61</width>
+     <x>40</x>
+     <y>140</y>
+     <width>71</width>
      <height>21</height>
     </rect>
    </property>
@@ -118,7 +117,7 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
 font: 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
-    <string>Product I.D</string>
+    <string>Employee I.D</string>
    </property>
   </widget>
  </widget>

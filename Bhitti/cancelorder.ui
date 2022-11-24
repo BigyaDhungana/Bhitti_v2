@@ -82,10 +82,10 @@ font: 19pt &quot;Segoe UI&quot;;</string>
 font: 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
-    <string>Product I.D</string>
+    <string>Order I.D</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QLineEdit" name="l_orderid">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -98,7 +98,7 @@ font: 9pt &quot;Segoe UI&quot;;</string>
     <string notr="true">background-color: rgb(160,191,243);</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="Cancel">
    <property name="geometry">
     <rect>
      <x>250</x>

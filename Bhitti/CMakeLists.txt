@@ -53,6 +53,18 @@ set(PROJECT_SOURCES
         incpass.cpp
         incpass.ui
         incpass.h
+        deleteproduct.cpp
+        deleteproduct.h
+        deleteproduct.ui
+        addemployee.cpp
+        addemployee.h
+        addemployee.ui
+        deleteemployee.cpp
+        deleteemployee.h
+        deleteemployee.ui
+        discountcode.cpp
+        discountcode.h
+        discountcode.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

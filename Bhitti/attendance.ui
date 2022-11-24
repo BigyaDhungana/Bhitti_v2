@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>467</width>
-    <height>253</height>
+    <height>358</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -60,7 +60,7 @@ font: 19pt &quot;Segoe UI&quot;;</string>
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QLineEdit" name="line_id">
    <property name="geometry">
     <rect>
      <x>160</x>
@@ -91,10 +91,10 @@ font: 19pt &quot;Segoe UI&quot;;</string>
     <string notr="true">color: rgb(32, 42, 68);</string>
    </property>
    <property name="text">
-    <string>Employee Name</string>
+    <string>Employee ID</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="submit">
    <property name="geometry">
     <rect>
      <x>310</x>
@@ -113,6 +113,16 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
    </property>
    <property name="text">
     <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>351</width>
+     <height>192</height>
+    </rect>
    </property>
   </widget>
  </widget>

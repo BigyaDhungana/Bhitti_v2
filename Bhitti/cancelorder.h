@@ -15,6 +15,9 @@ public:
     explicit CancelOrder(QWidget *parent = nullptr);
     ~CancelOrder();
 
+private slots:
+    void on_Cancel_clicked();
+
 private:
     Ui::CancelOrder *ui;
 };

@@ -5,7 +5,7 @@
 #include "viewproduct.h"
 #include "cancelorder.h"
 #include "login.h"
-
+#include "discountcode.h"
 EmployeeDash::EmployeeDash(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::EmployeeDash)
@@ -20,7 +20,7 @@ EmployeeDash::~EmployeeDash()
 
 void EmployeeDash::on_pushButton_clicked()
 {
-    this->hide();
+    //this->hide();
     NewOrder *o=new NewOrder;
     o->show();
 }
@@ -28,7 +28,7 @@ void EmployeeDash::on_pushButton_clicked()
 
 void EmployeeDash::on_pushButton_2_clicked()
 {
-    this->hide();
+    //this->hide();
     TrackOrder *t=new TrackOrder;
     t->show();
 }
@@ -36,7 +36,7 @@ void EmployeeDash::on_pushButton_2_clicked()
 
 void EmployeeDash::on_pushButton_3_clicked()
 {
-    this->hide();
+    //this->hide();
     CancelOrder *c=new CancelOrder;
     c->show();
 
@@ -45,7 +45,7 @@ void EmployeeDash::on_pushButton_3_clicked()
 
 void EmployeeDash::on_pushButton_4_clicked()
 {
-    this->hide();
+    //this->hide();
     ViewProduct *v=new ViewProduct;
     v->show();
 }
@@ -57,5 +57,12 @@ void EmployeeDash::on_pushButton_6_clicked()
     Login *newentry=new Login;
     newentry->show();
 
+}
+
+
+void EmployeeDash::on_pushButton_5_clicked()
+{
+    DiscountCode *dce=new DiscountCode;
+    dce->show();
 }
 

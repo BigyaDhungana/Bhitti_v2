@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ViewProduct</class>
- <widget class="QDialog" name="ViewProduct">
+ <class>DeleteProduct</class>
+ <widget class="QDialog" name="DeleteProduct">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>407</width>
-    <height>261</height>
+    <width>565</width>
+    <height>277</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">;
-background-color: rgb(255, 255, 255);</string>
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
   </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>130</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160,191,243);</string>
+   </property>
+  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>20</y>
-     <width>191</width>
+     <x>180</x>
+     <y>30</y>
+     <width>201</width>
      <height>41</height>
     </rect>
    </property>
@@ -39,69 +51,15 @@ background-color: rgb(255, 255, 255);</string>
 font: 19pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
-    <string>View Product</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_3">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>10</y>
-     <width>71</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>C:/Users/Asus/Downloads/Untitled-2.png</pixmap>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
-     <y>130</y>
-     <width>141</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(160,191,243);</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>280</x>
-     <y>130</y>
-     <width>80</width>
-     <height>18</height>
-    </rect>
-   </property>
-   <property name="cursor">
-    <cursorShape>PointingHandCursor</cursorShape>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(177, 0, 3);
-
-font: 900 9pt &quot;Segoe UI Black&quot;;</string>
-   </property>
-   <property name="text">
-    <string>View</string>
+    <string>Delete Product</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>90</x>
      <y>130</y>
-     <width>61</width>
+     <width>71</width>
      <height>21</height>
     </rect>
    </property>
@@ -119,6 +77,47 @@ font: 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
     <string>Product I.D</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Delete">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>130</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(177, 0, 3);
+
+font: 900 9pt &quot;Segoe UI Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>30</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>C:/Users/Asus/Downloads/Untitled-2.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>

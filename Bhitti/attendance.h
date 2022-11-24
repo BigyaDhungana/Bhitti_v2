@@ -15,6 +15,9 @@ public:
     explicit Attendance(QWidget *parent = nullptr);
     ~Attendance();
 
+private slots:
+    void on_submit_clicked();
+
 private:
     Ui::Attendance *ui;
 };
