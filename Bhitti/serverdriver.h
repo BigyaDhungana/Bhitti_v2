@@ -35,6 +35,12 @@ public:
         return toReturn;
     }//tested
 
+    std::string getAllProducts(){
+        cpr::Response r = cpr::Get(cpr::Url{serverURL+"/inventory/0"});
+        std::string toReturn = r.text;
+        return toReturn;
+    }
+
     // ORDER METHODS
 
     std::string addOrder(std::string productID, std::string customer, std::string contact,
@@ -51,6 +57,12 @@ public:
         std::string toReturn = r.text;
         return toReturn;
     }//tested
+
+    std::string getAllOrders(){
+        cpr::Response r = cpr::Get(cpr::Url{serverURL+"/allorders"});
+        std::string toReturn = r.text;
+        return toReturn;
+    }
 
     std::string deleteOrders(std::string orderID){
         cpr::Response r = cpr::Delete(cpr::Url{serverURL+"/orders/"+orderID});

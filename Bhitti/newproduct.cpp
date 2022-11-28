@@ -1,6 +1,7 @@
 #include "newproduct.h"
 #include "ui_newproduct.h"
 #include "serverdriver.h"
+#include "happyvitti.h"
 NewProduct::NewProduct(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::NewProduct)
@@ -18,7 +19,6 @@ void NewProduct::on_pushButton_clicked()
     QString product_id,product_name,sellingprice,quantity;
     std::string s_product_id,s_product_name,s_sellingprice,s_quantity,response;
 
-    product_id=ui->pid->text();
     product_name=ui->pname->text();
     sellingprice=ui->price->text();
     quantity=ui->stk->text();
@@ -33,6 +33,9 @@ void NewProduct::on_pushButton_clicked()
 
 
     this->hide();
+    HappyVitti *happy=new HappyVitti;
+    happy->show();
+
 
 
 }

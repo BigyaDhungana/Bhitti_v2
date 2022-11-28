@@ -1,6 +1,7 @@
 #include "deleteemployee.h"
 #include "ui_deleteemployee.h"
 #include "serverdriver.h"
+#include "happyvitti.h"
 
 deleteEmployee::deleteEmployee(QWidget *parent) :
     QDialog(parent),
@@ -23,5 +24,8 @@ void deleteEmployee::on_pushButton_clicked()
     ServerDriver server=ServerDriver();
     response=server.removeEmployee(s_emp_id);
     this->hide();
+    HappyVitti *happy=new HappyVitti;
+    happy->show();
+
 }
 

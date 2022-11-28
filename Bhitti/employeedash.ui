@@ -99,7 +99,7 @@ font: 22pt &quot;Segoe UI&quot;;</string>
 font: 300 12pt &quot;Segoe UI&quot;;</string>
            </property>
            <property name="text">
-            <string>                           Mr. Vitti has taken care of your attendance       </string>
+            <string>                           Mr. Vitti 🦎has taken care of your attendance       </string>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>

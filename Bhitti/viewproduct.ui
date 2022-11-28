@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>407</width>
-    <height>261</height>
+    <height>295</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -64,9 +64,9 @@ font: 19pt &quot;Segoe UI&quot;;</string>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>120</x>
      <y>80</y>
-     <width>141</width>
+     <width>161</width>
      <height>22</height>
     </rect>
    </property>
@@ -101,7 +101,7 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
     <rect>
      <x>60</x>
      <y>80</y>
-     <width>61</width>
+     <width>51</width>
      <height>21</height>
     </rect>
    </property>
@@ -129,6 +129,28 @@ font: 9pt &quot;Segoe UI&quot;;</string>
      <width>351</width>
      <height>141</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>260</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(11, 66, 160);
+
+font: 900 9pt &quot;Segoe UI Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>View All Products</string>
    </property>
   </widget>
  </widget>

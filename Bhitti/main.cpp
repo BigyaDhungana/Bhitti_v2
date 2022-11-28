@@ -1,8 +1,7 @@
 #include <QApplication>
 #include "login.h"
-/*
-#include "neworder.h"
 
+/*#include "neworder.h"
 #include "employeedash.h"
 #include "trackorder.h"
 #include "viewproduct.h"
@@ -34,14 +33,15 @@ int main(int argc, char *argv[])
     //atten.show();
     //NewProduct np1;
     //np1.show();
- /**/
-   //AdminDash aa;
-   //aa.showMaximized();
+ /*
+   AdminDash aa;
+   aa.showMaximized();
    // DeleteProduct d1;
     //d1.show();
     //AddEmployee ad1;
     //ad1.show();
   //  deleteEmployee del;
    // del.show();
+   */
     return a.exec();
 }

@@ -78,7 +78,7 @@ border-radius: 20px;</string>
        <property name="title">
         <string/>
        </property>
-       <layout class="QVBoxLayout" name="verticalLayout" stretch="10,40,10,10,10">
+       <layout class="QVBoxLayout" name="verticalLayout" stretch="10,40,10,0,0,10">
         <item>
          <widget class="QLabel" name="label_2">
           <property name="styleSheet">
@@ -96,7 +96,8 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
            <cursorShape>IBeamCursor</cursorShape>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(255, 255, 255);</string>
+           <string notr="true">background-color: rgb(255, 255, 255);
+font: 20pt &quot;Segoe UI&quot;;</string>
           </property>
          </widget>
         </item>
@@ -124,7 +125,22 @@ color: rgb(11, 66, 160);
 font: 600 9pt &quot;Segoe UI&quot;;</string>
           </property>
           <property name="text">
-           <string>ADD</string>
+           <string>ADD NEW AGENDA</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_13">
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(160,191,243);
+color: rgb(11, 66, 160);
+font: 600 9pt &quot;Segoe UI&quot;;</string>
+          </property>
+          <property name="text">
+           <string>VIEW ALL AGENDAS</string>
           </property>
          </widget>
         </item>

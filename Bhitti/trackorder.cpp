@@ -65,3 +65,47 @@ void TrackOrder::on_pushButton_clicked()
 
 }
 
+
+void TrackOrder::on_pushButton_2_clicked()
+{
+    ServerDriver server=ServerDriver();
+    std::string response=server.getAllOrders();
+    QString responseStr = QString::fromStdString(response);
+    QString qPlainJson = QString::fromUtf8(response.c_str());
+    QByteArray jsonData = qPlainJson.toUtf8();
+    QJsonDocument jsonDocument = QJsonDocument::fromJson(jsonData);
+    QJsonArray codes = jsonDocument.array();
+    int arraySize = codes.size();
+
+    horizontalHeader.append("Order ID");
+    horizontalHeader.append("Product ID");
+    horizontalHeader.append("Customer Name");
+    horizontalHeader.append("Contact");
+    horizontalHeader.append("Address");
+    horizontalHeader.append("Price");
+    horizontalHeader.append("Mode of Payment");
+
+    model = new QStandardItemModel();
+    model->setHorizontalHeaderLabels(horizontalHeader);
+    model->setVerticalHeaderLabels(verticalHeader);
+    ui->tableView->setModel(model);
+    ui->tableView->verticalHeader()->setVisible(false);
+    ui->tableView->verticalHeader()->setDefaultSectionSize(10);
+//    ui->tableView->setShowGrid(false);
+
+    for(int i=0; i<arraySize; i++){
+        QJsonValue abc = codes[i];
+        QJsonObject obj = abc.toObject();
+        QStandardItem *id = new QStandardItem(obj.value("orderID").toString());
+        QStandardItem *pid = new QStandardItem(obj.value("productID").toString());
+        QStandardItem *name = new QStandardItem(obj.value("customerName").toString());
+        QStandardItem *cont = new QStandardItem(obj.value("customerContact").toString());
+        QStandardItem *add = new QStandardItem(obj.value("customerAddress").toString());
+        QStandardItem *price = new QStandardItem(obj.value("price").toString());\
+        QStandardItem *mop = new QStandardItem(obj.value("paymentMethod").toString());
+
+        model->appendRow(QList<QStandardItem*>()<<id<<pid<<name<<cont<<add<<price<<mop);
+    }
+
+}
+

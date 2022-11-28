@@ -1,6 +1,7 @@
 #include "cancelorder.h"
 #include "ui_cancelorder.h"
 #include "serverdriver.h"
+#include "happyvitti.h"
 CancelOrder::CancelOrder(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::CancelOrder)
@@ -23,5 +24,8 @@ void CancelOrder::on_Cancel_clicked()
     ServerDriver server=ServerDriver();
     response=server.deleteOrders(s_order_id);
     //qDebug()<<order_id;
+    HappyVitti *happy=new HappyVitti;
+    happy->show();
+
 }
 

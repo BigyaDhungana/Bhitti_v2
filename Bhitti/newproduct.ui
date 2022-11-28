@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>521</width>
-    <height>256</height>
+    <width>364</width>
+    <height>199</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>160</x>
+     <x>130</x>
      <y>20</y>
      <width>161</width>
      <height>41</height>
@@ -45,7 +45,7 @@ font: 19pt &quot;Segoe UI&quot;;</string>
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>10</y>
+     <y>20</y>
      <width>61</width>
      <height>51</height>
     </rect>
@@ -63,9 +63,9 @@ font: 19pt &quot;Segoe UI&quot;;</string>
   <widget class="QLineEdit" name="pname">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>120</y>
-     <width>91</width>
+     <x>130</x>
+     <y>90</y>
+     <width>191</width>
      <height>22</height>
     </rect>
    </property>
@@ -79,9 +79,9 @@ font: 19pt &quot;Segoe UI&quot;;</string>
   <widget class="QLineEdit" name="price">
    <property name="geometry">
     <rect>
-     <x>260</x>
+     <x>130</x>
      <y>120</y>
-     <width>74</width>
+     <width>101</width>
      <height>22</height>
     </rect>
    </property>
@@ -95,9 +95,9 @@ font: 19pt &quot;Segoe UI&quot;;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>410</x>
-     <y>120</y>
-     <width>80</width>
+     <x>60</x>
+     <y>150</y>
+     <width>261</width>
      <height>18</height>
     </rect>
    </property>
@@ -111,28 +111,15 @@ background-color: rgb(177, 0, 3);
 font: 900 9pt &quot;Segoe UI Black&quot;;</string>
    </property>
    <property name="text">
-    <string>Add</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="pid">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>120</y>
-     <width>91</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(160,191,243);</string>
+    <string>Add New Product</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>370</x>
-     <y>90</y>
-     <width>22</width>
+     <x>240</x>
+     <y>120</y>
+     <width>31</width>
      <height>16</height>
     </rect>
    </property>
@@ -141,32 +128,15 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
 </string>
    </property>
    <property name="text">
-    <string>Stock</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>90</y>
-     <width>42</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(32, 42, 68);
-</string>
-   </property>
-   <property name="text">
-    <string>Product Id</string>
+    <string>Stock:</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>60</x>
      <y>90</y>
-     <width>101</width>
+     <width>71</width>
      <height>20</height>
     </rect>
    </property>
@@ -175,15 +145,15 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
 </string>
    </property>
    <property name="text">
-    <string>Product name</string>
+    <string>Product Name:</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>90</y>
-     <width>91</width>
+     <x>60</x>
+     <y>120</y>
+     <width>51</width>
      <height>20</height>
     </rect>
    </property>
@@ -192,15 +162,15 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
 </string>
    </property>
    <property name="text">
-    <string>Selling price</string>
+    <string>Selling Price:</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="stk">
    <property name="geometry">
     <rect>
-     <x>370</x>
+     <x>270</x>
      <y>120</y>
-     <width>21</width>
+     <width>51</width>
      <height>22</height>
     </rect>
    </property>

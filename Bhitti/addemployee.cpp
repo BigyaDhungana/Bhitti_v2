@@ -2,6 +2,7 @@
 #include "ui_addemployee.h"
 #include "QString"
 #include "serverdriver.h"
+#include "happyvitti.h"
 
 AddEmployee::AddEmployee(QWidget *parent) :
     QDialog(parent),
@@ -34,6 +35,9 @@ void AddEmployee::on_Add_clicked()
     //qDebug()<<name<<postt<<role<<usname<<password;
     ServerDriver s = ServerDriver();
     response=s.addEmployee(sname,spost,srole,susname,spassword);
+    HappyVitti *happy=new HappyVitti;
+    happy->show();
+
 
 }
 

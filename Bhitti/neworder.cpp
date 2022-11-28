@@ -1,6 +1,7 @@
 #include "neworder.h"
 #include "ui_neworder.h"
 #include "serverdriver.h"
+#include "happyvitti.h"
 NewOrder::NewOrder(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::NewOrder)
@@ -32,5 +33,8 @@ void NewOrder::on_pushButton_clicked()
     ServerDriver server =ServerDriver();
     response=server.addOrder(s_productid,s_name,s_contact,s_address,s_price);
     this->hide();
+    HappyVitti *happy=new HappyVitti;
+    happy->show();
+
 }
 

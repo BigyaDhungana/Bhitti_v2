@@ -13,6 +13,7 @@
 #include "addemployee.h"
 #include "deleteemployee.h"
 #include "discountcode.h"
+#include "adminagenda.h"
 
 AdminDash::AdminDash(QWidget *parent) :
     QDialog(parent),
@@ -122,5 +123,13 @@ void AdminDash::on_pushButton_clicked()
     ServerDriver s = ServerDriver();
     s.addAgenda(agendaString);
     ui->textEdit->setText("");
+}
+
+
+void AdminDash::on_pushButton_13_clicked()
+{
+    AdminAgenda *agedna=new AdminAgenda;
+    agedna->show();
+
 }
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>incpass</class>
- <widget class="QDialog" name="incpass">
+ <class>HappyVitti</class>
+ <widget class="QDialog" name="HappyVitti">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>480</width>
-    <height>300</height>
+    <width>565</width>
+    <height>330</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,17 +19,17 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>10</y>
-     <width>151</width>
-     <height>211</height>
+     <x>20</x>
+     <y>20</y>
+     <width>201</width>
+     <height>251</height>
     </rect>
    </property>
    <property name="text">
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>C:/Users/Asus/Downloads/SadVitti.png</pixmap>
+    <pixmap>C:/Users/Asus/Downloads/HappyVitti.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -39,35 +39,35 @@
    <property name="geometry">
     <rect>
      <x>230</x>
-     <y>90</y>
-     <width>251</width>
-     <height>31</height>
+     <y>40</y>
+     <width>121</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(177, 0, 3);
-
-font: 900 16pt &quot;Segoe UI Black&quot;;</string>
+    <string notr="true">color: rgb(11, 66, 160);
+font: 12pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
-    <string>Incorrect password</string>
+    <string>Mr. Vitti is happy!</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
      <x>230</x>
-     <y>30</y>
-     <width>161</width>
-     <height>31</height>
+     <y>80</y>
+     <width>401</width>
+     <height>111</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(10, 60, 145);
-font: 12pt &quot;Segoe UI&quot;;</string>
+    <string notr="true">
+font: 18pt &quot;Segoe UI&quot;;
+color: rgb(0, 85, 0);</string>
    </property>
    <property name="text">
-    <string>Mr. Vitti is Sad :(</string>
+    <string>Task Completed Successfully</string>
    </property>
   </widget>
  </widget>

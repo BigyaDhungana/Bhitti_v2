@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>317</height>
+    <width>362</width>
+    <height>368</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,7 +38,7 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>50</x>
      <y>70</y>
      <width>71</width>
      <height>21</height>
@@ -57,15 +57,15 @@
 font: 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
-    <string>Code</string>
+    <string>Discount Code:</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>90</y>
-     <width>71</width>
+     <x>120</x>
+     <y>70</y>
+     <width>201</width>
      <height>22</height>
     </rect>
    </property>
@@ -76,7 +76,7 @@ font: 9pt &quot;Segoe UI&quot;;</string>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>120</x>
      <y>10</y>
      <width>201</width>
      <height>41</height>
@@ -101,9 +101,9 @@ font: 19pt &quot;Segoe UI&quot;;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>90</y>
-     <width>81</width>
+     <x>50</x>
+     <y>130</y>
+     <width>271</width>
      <height>21</height>
     </rect>
    </property>
@@ -117,52 +117,14 @@ background-color: rgb(177, 0, 3);
 font: 900 9pt &quot;Segoe UI Black&quot;;</string>
    </property>
    <property name="text">
-    <string>Add</string>
+    <string>Add New Discount Code</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>70</y>
-     <width>71</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Segoe UI</family>
-     <pointsize>9</pointsize>
-     <italic>false</italic>
-     <bold>false</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(11, 66, 160);
-font: 9pt &quot;Segoe UI&quot;;</string>
-   </property>
-   <property name="text">
-    <string>Amount</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>90</y>
-     <width>41</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(160,191,243);</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_5">
-   <property name="geometry">
-    <rect>
-     <x>170</x>
-     <y>70</y>
+     <x>50</x>
+     <y>100</y>
      <width>51</width>
      <height>21</height>
     </rect>
@@ -180,15 +142,53 @@ font: 9pt &quot;Segoe UI&quot;;</string>
 font: 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
-    <string>Validity</string>
+    <string>Percentage:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>100</y>
+     <width>41</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160,191,243);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>100</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>9</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(11, 66, 160);
+font: 9pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Validity:</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_3">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>90</y>
-     <width>81</width>
+     <x>190</x>
+     <y>100</y>
+     <width>131</width>
      <height>22</height>
     </rect>
    </property>
@@ -199,9 +199,9 @@ font: 9pt &quot;Segoe UI&quot;;</string>
   <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>120</y>
-     <width>341</width>
+     <x>50</x>
+     <y>160</y>
+     <width>271</width>
      <height>151</height>
     </rect>
    </property>
@@ -209,9 +209,9 @@ font: 9pt &quot;Segoe UI&quot;;</string>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>280</y>
-     <width>81</width>
+     <x>50</x>
+     <y>320</y>
+     <width>271</width>
      <height>21</height>
     </rect>
    </property>
@@ -220,12 +220,11 @@ font: 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="styleSheet">
     <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(177, 0, 3);
-
+background-color: rgb(11, 66, 160);
 font: 900 9pt &quot;Segoe UI Black&quot;;</string>
    </property>
    <property name="text">
-    <string>Show Codes</string>
+    <string>Show All Discount Codes</string>
    </property>
   </widget>
  </widget>

@@ -73,3 +73,45 @@ void ViewProduct::on_pushButton_clicked()
 
 }
 
+
+void ViewProduct::on_pushButton_2_clicked()
+{
+    ServerDriver server=ServerDriver();
+    std::string response=server.getAllProducts();
+    QString responseStr = QString::fromStdString(response);
+    QString qPlainJson = QString::fromUtf8(response.c_str());
+    QByteArray jsonData = qPlainJson.toUtf8();
+    QJsonDocument jsonDocument = QJsonDocument::fromJson(jsonData);
+    QJsonArray codes = jsonDocument.array();
+    int arraySize = codes.size();
+
+    horizontalHeader.append("Product ID");
+    horizontalHeader.append("Name");
+    horizontalHeader.append("Min. Price");
+    horizontalHeader.append("Max. Price");
+    horizontalHeader.append("Price");
+    horizontalHeader.append("Stock");
+
+
+    model = new QStandardItemModel();
+    model->setHorizontalHeaderLabels(horizontalHeader);
+    model->setVerticalHeaderLabels(verticalHeader);
+    ui->tableView->setModel(model);
+    ui->tableView->verticalHeader()->setVisible(false);
+    ui->tableView->verticalHeader()->setDefaultSectionSize(10);
+//    ui->tableView->setShowGrid(false);
+
+    for(int i=0; i<arraySize; i++){
+        QJsonValue abc = codes[i];
+        QJsonObject obj = abc.toObject();
+        QStandardItem *id = new QStandardItem(obj.value("productID").toString());
+        QStandardItem *pid = new QStandardItem(obj.value("productName").toString());
+        QStandardItem *name = new QStandardItem(obj.value("minPrice").toString());
+        QStandardItem *cont = new QStandardItem(obj.value("maxPrice").toString());
+        QStandardItem *add = new QStandardItem(obj.value("price").toString());
+        QStandardItem *price = new QStandardItem(obj.value("stock").toString());\
+
+        model->appendRow(QList<QStandardItem*>()<<id<<pid<<name<<cont<<add<<price);
+    }
+}
+

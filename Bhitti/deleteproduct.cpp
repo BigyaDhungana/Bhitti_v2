@@ -1,6 +1,7 @@
 #include "deleteproduct.h"
 #include "ui_deleteproduct.h"
 #include "serverdriver.h"
+#include "happyvitti.h"
 DeleteProduct::DeleteProduct(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::DeleteProduct)
@@ -22,5 +23,10 @@ void DeleteProduct::on_Delete_clicked()
     ServerDriver server=ServerDriver();
     response=server.deleteInventory(s_productid);
     this->hide();
+
+    HappyVitti *happy=new HappyVitti;
+    happy->show();
+
+
 }
 

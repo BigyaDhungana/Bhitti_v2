@@ -65,6 +65,12 @@ set(PROJECT_SOURCES
         discountcode.cpp
         discountcode.h
         discountcode.ui
+        happyvitti.cpp
+        happyvitti.h
+        happyvitti.ui
+        adminagenda.cpp
+        adminagenda.h
+        adminagenda.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

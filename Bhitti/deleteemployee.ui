@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>300</height>
+    <height>129</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,9 +38,9 @@
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>140</y>
-     <width>131</width>
+     <x>110</x>
+     <y>90</y>
+     <width>151</width>
      <height>22</height>
     </rect>
    </property>
@@ -51,8 +51,8 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>140</y>
+     <x>270</x>
+     <y>90</y>
      <width>81</width>
      <height>21</height>
     </rect>
@@ -99,8 +99,8 @@ font: 19pt &quot;Segoe UI&quot;;</string>
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>140</y>
-     <width>71</width>
+     <y>90</y>
+     <width>61</width>
      <height>21</height>
     </rect>
    </property>
@@ -117,7 +117,7 @@ font: 19pt &quot;Segoe UI&quot;;</string>
 font: 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
-    <string>Employee I.D</string>
+    <string>Employee I.D:</string>
    </property>
   </widget>
  </widget>
