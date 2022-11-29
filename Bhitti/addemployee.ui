@@ -98,9 +98,9 @@ font: 19pt &quot;Segoe UI&quot;;</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>20</x>
      <y>110</y>
-     <width>81</width>
+     <width>101</width>
      <height>21</height>
     </rect>
    </property>
@@ -125,7 +125,7 @@ font: 9pt &quot;Segoe UI&quot;;</string>
     <rect>
      <x>70</x>
      <y>140</y>
-     <width>101</width>
+     <width>91</width>
      <height>22</height>
     </rect>
    </property>
@@ -175,9 +175,9 @@ font: 9pt &quot;Segoe UI&quot;;</string>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>20</x>
      <y>140</y>
-     <width>21</width>
+     <width>41</width>
      <height>21</height>
     </rect>
    </property>
@@ -200,9 +200,9 @@ font: 9pt &quot;Segoe UI&quot;;</string>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>170</x>
      <y>140</y>
-     <width>31</width>
+     <width>51</width>
      <height>21</height>
     </rect>
    </property>
@@ -225,9 +225,9 @@ font: 9pt &quot;Segoe UI&quot;;</string>
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>20</x>
      <y>170</y>
-     <width>51</width>
+     <width>71</width>
      <height>21</height>
     </rect>
    </property>
@@ -250,9 +250,9 @@ font: 9pt &quot;Segoe UI&quot;;</string>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>20</x>
      <y>200</y>
-     <width>51</width>
+     <width>71</width>
      <height>21</height>
     </rect>
    </property>

@@ -19,6 +19,34 @@ EmployeeDash::EmployeeDash(QWidget *parent) :
     ui(new Ui::EmployeeDash)
 {
     ui->setupUi(this);
+    ServerDriver s = ServerDriver();
+    std::string plainJson = s.getAgendas();
+    QString qPlainJson = QString::fromUtf8(plainJson.c_str());
+    QByteArray jsonData = qPlainJson.toUtf8();
+    QJsonDocument jsonDocument = QJsonDocument::fromJson(jsonData);
+    QJsonArray codes = jsonDocument.array();
+    int arraySize = codes.size();
+
+    horizontalHeader.append("Agenda");
+    horizontalHeader.append("Posted On");
+
+    model = new QStandardItemModel();
+    model->setHorizontalHeaderLabels(horizontalHeader);
+    model->setVerticalHeaderLabels(verticalHeader);
+    ui->tableView->setModel(model);
+    ui->tableView->verticalHeader()->setVisible(false);
+    ui->tableView->verticalHeader()->setDefaultSectionSize(30);
+    ui->tableView->horizontalHeader()->setDefaultSectionSize(400);
+//    ui->tableView->setShowGrid(false);
+
+    for(int i=0; i<arraySize; i++){
+        QJsonValue abc = codes[i];
+        QJsonObject obj = abc.toObject();
+        QStandardItem *agenda = new QStandardItem(obj.value("agenda").toString());
+        QStandardItem *datetime = new QStandardItem(obj.value("postedDate").toString());
+
+        model->appendRow(QList<QStandardItem*>()<<agenda<<datetime);
+    }
 }
 
 EmployeeDash::~EmployeeDash()
@@ -74,35 +102,4 @@ void EmployeeDash::on_pushButton_5_clicked()
     dce->show();
 }
 
-
-void EmployeeDash::on_pushButton_7_clicked()
-{
-    ServerDriver s = ServerDriver();
-    std::string plainJson = s.getAgendas();
-    QString qPlainJson = QString::fromUtf8(plainJson.c_str());
-    QByteArray jsonData = qPlainJson.toUtf8();
-    QJsonDocument jsonDocument = QJsonDocument::fromJson(jsonData);
-    QJsonArray codes = jsonDocument.array();
-    int arraySize = codes.size();
-
-    horizontalHeader.append("Agenda");
-    horizontalHeader.append("Posted On");
-
-    model = new QStandardItemModel();
-    model->setHorizontalHeaderLabels(horizontalHeader);
-    model->setVerticalHeaderLabels(verticalHeader);
-    ui->tableView->setModel(model);
-    ui->tableView->verticalHeader()->setVisible(false);
-    ui->tableView->verticalHeader()->setDefaultSectionSize(30);
-//    ui->tableView->setShowGrid(false);
-
-    for(int i=0; i<arraySize; i++){
-        QJsonValue abc = codes[i];
-        QJsonObject obj = abc.toObject();
-        QStandardItem *agenda = new QStandardItem(obj.value("agenda").toString());
-        QStandardItem *datetime = new QStandardItem(obj.value("postedDate").toString());
-
-        model->appendRow(QList<QStandardItem*>()<<agenda<<datetime);
-    }
-}
 

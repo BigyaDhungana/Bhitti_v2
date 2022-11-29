@@ -44,8 +44,8 @@ public:
     // ORDER METHODS
 
     std::string addOrder(std::string productID, std::string customer, std::string contact,
-                            std::string address, std::string price){
-        std::string toSend = "{\"product\":\""+productID+"\",\"customer\":\""+customer+"\",\"contact\":\""+contact+"\",\"address\":\""+address+"\",\"price\":\""+price+"\"}";;
+                            std::string address, std::string price, std::string disCode, std::string paymentMode){
+        std::string toSend = "{\"product\":\""+productID+"\",\"customer\":\""+customer+"\",\"contact\":\""+contact+"\",\"address\":\""+address+"\",\"price\":\""+price+"\", \"discountCode\":\""+disCode+"\", \"paymentMode\":\""+paymentMode+"\"}";
         cpr::Response r = cpr::Post(cpr::Url{serverURL+"/orders"},
                                     cpr::Body{toSend});
         std::string toReturn = r.text;

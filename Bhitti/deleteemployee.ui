@@ -98,9 +98,9 @@ font: 19pt &quot;Segoe UI&quot;;</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>10</x>
      <y>90</y>
-     <width>61</width>
+     <width>91</width>
      <height>21</height>
     </rect>
    </property>
@@ -117,7 +117,7 @@ font: 19pt &quot;Segoe UI&quot;;</string>
 font: 9pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
-    <string>Employee I.D:</string>
+    <string>Employee I.D</string>
    </property>
   </widget>
  </widget>

@@ -55,6 +55,7 @@ void Login::on_pushButton_clicked()
         if(userRole == "admin"){
             AdminDash *a1 = new AdminDash;
             a1->showMaximized();
+            this->hide();
         }else{
             EmployeeDash *e1=new EmployeeDash;
             e1->showMaximized();

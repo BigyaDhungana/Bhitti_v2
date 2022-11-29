@@ -152,7 +152,7 @@ border-radius:20px;</string>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
-       <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0">
+       <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
         <property name="topMargin">
          <number>4</number>
         </property>
@@ -163,22 +163,10 @@ border-radius:20px;</string>
 font: 300 18pt &quot;Segoe UI&quot;;</string>
           </property>
           <property name="text">
-           <string>TODO</string>
+           <string>AGENDAS</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="pushButton_7">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(177, 0, 3);
-font: 900 9pt &quot;Segoe UI Black&quot;;</string>
-          </property>
-          <property name="text">
-           <string>Get Data</string>
           </property>
          </widget>
         </item>

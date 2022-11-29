@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>579</width>
-    <height>433</height>
+    <width>470</width>
+    <height>444</height>
    </rect>
   </property>
   <property name="font">
@@ -65,330 +65,244 @@ font: 19pt &quot;Segoe UI&quot;;</string>
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QWidget" name="layoutWidget">
+  <widget class="QLineEdit" name="cname">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>70</y>
-     <width>381</width>
-     <height>301</height>
+     <x>190</x>
+     <y>120</y>
+     <width>141</width>
+     <height>22</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0,0">
-    <item>
-     <layout class="QGridLayout" name="gridLayout_2">
-      <item row="0" column="0">
-       <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0">
-        <item>
-         <widget class="QLabel" name="label_2">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(11, 66, 160);
-font: 300 9pt &quot;Segoe UI&quot;;
-</string>
-          </property>
-          <property name="text">
-           <string>Product Id                </string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="pid">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(160,191,243);</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_2">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QGridLayout" name="gridLayout_4">
-      <item row="0" column="0">
-       <layout class="QHBoxLayout" name="horizontalLayout_2">
-        <item>
-         <widget class="QLabel" name="label_3">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(11, 66, 160);
-font: 300 9pt &quot;Segoe UI&quot;;
-
-</string>
-          </property>
-          <property name="text">
-           <string>Customer's Name    </string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="cname">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(160,191,243);</string>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_4">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QGridLayout" name="gridLayout_5">
-      <item row="0" column="0">
-       <layout class="QHBoxLayout" name="horizontalLayout_3">
-        <item>
-         <widget class="QLabel" name="label_4">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(11, 66, 160);
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160,191,243);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="contact">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>170</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160,191,243);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="add">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>220</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160,191,243);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="price">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>270</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160,191,243);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pid_6">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>320</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160,191,243);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pid_7">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>370</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160,191,243);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>320</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(11, 66, 160);
 font: 300 9pt &quot;Segoe UI&quot;;</string>
-          </property>
-          <property name="text">
-           <string>Contact no               </string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="contact">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(160,191,243);</string>
-          </property>
-          <property name="inputMethodHints">
-           <set>Qt::ImhFormattedNumbersOnly</set>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_6">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QGridLayout" name="gridLayout_6">
-      <item row="0" column="0">
-       <layout class="QHBoxLayout" name="horizontalLayout_4">
-        <property name="spacing">
-         <number>0</number>
-        </property>
-        <item>
-         <widget class="QLabel" name="label_5">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(11, 66, 160);
-font: 300 9pt &quot;Segoe UI&quot;;</string>
-          </property>
-          <property name="text">
-           <string>Address                     </string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="add">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(160,191,243);</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_8">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QGridLayout" name="gridLayout_7">
-      <item row="0" column="0">
-       <layout class="QHBoxLayout" name="horizontalLayout_5">
-        <item>
-         <widget class="QLabel" name="label_6">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(11, 66, 160);
-font: 300 9pt &quot;Segoe UI&quot;;</string>
-          </property>
-          <property name="text">
-           <string>Quoted Price           </string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="price">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(160,191,243);;</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_10">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QGridLayout" name="gridLayout" columnstretch="0,10,0,0">
-      <item row="0" column="3">
-       <spacer name="horizontalSpacer_15">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="label_9">
-        <property name="styleSheet">
-         <string notr="true">color: rgb(11, 66, 160);
-font: 300 9pt &quot;Segoe UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Payment method</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2">
-       <spacer name="horizontalSpacer_14">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="1" column="3">
-       <widget class="QPushButton" name="pushButton">
-        <property name="cursor">
-         <cursorShape>PointingHandCursor</cursorShape>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);
+   </property>
+   <property name="text">
+    <string>Payment method</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>410</y>
+     <width>311</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
 background-color: rgb(177, 0, 3);
 ;
 font: 900 9pt &quot;Segoe UI Black&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Add</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QRadioButton" name="radioButton">
-        <property name="font">
-         <font>
-          <family>Segoe UI</family>
-          <pointsize>9</pointsize>
-          <italic>false</italic>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(11, 66, 160);
+   </property>
+   <property name="text">
+    <string>Add New Order</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>370</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(11, 66, 160);
 font: 300 9pt &quot;Segoe UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Cash on delivery</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="1">
-       <widget class="QRadioButton" name="radioButton_2">
-        <property name="font">
-         <font>
-          <family>Segoe UI</family>
-          <pointsize>9</pointsize>
-          <italic>false</italic>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(11, 66, 160);
+   </property>
+   <property name="text">
+    <string>Discount Code</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>80</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(11, 66, 160);
+font: 300 9pt &quot;Segoe UI&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Product Id                </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pid">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>73</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(160,191,243);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>170</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(11, 66, 160);
 font: 300 9pt &quot;Segoe UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Advanced</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-   </layout>
+   </property>
+   <property name="text">
+    <string>Contact no               </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>120</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(11, 66, 160);
+font: 300 9pt &quot;Segoe UI&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Customer's Name    </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>270</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(11, 66, 160);
+font: 300 9pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Quoted Price           </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>34</x>
+     <y>220</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(11, 66, 160);
+font: 300 9pt &quot;Segoe UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Address                     </string>
+   </property>
   </widget>
  </widget>
  <tabstops>
   <tabstop>pid</tabstop>
-  <tabstop>cname</tabstop>
-  <tabstop>contact</tabstop>
-  <tabstop>add</tabstop>
-  <tabstop>price</tabstop>
  </tabstops>
  <resources/>
  <connections/>

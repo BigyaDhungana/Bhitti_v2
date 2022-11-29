@@ -98,9 +98,9 @@ font: 900 9pt &quot;Segoe UI Black&quot;;</string>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>70</x>
+     <x>30</x>
      <y>90</y>
-     <width>41</width>
+     <width>81</width>
      <height>20</height>
     </rect>
    </property>
